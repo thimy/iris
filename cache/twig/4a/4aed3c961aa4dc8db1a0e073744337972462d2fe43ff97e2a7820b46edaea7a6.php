@@ -205,18 +205,18 @@ class __TwigTemplate_1b9a597fd9d85b981882f56446d475559a7a89adb0462fb8c97e20eb90c
         }
         foreach ($context['_seq'] as $context["_key"] => $context["button"]) {
             // line 52
-            echo "      <div class=\"";
+            echo "      ";
             if ($this->getAttribute($context["button"], "outerclasses", array(), "any", true, true)) {
-                echo " ";
+                echo "<div class=\"";
                 echo $this->getAttribute($context["button"], "outerclasses", array());
+                echo "\">";
             }
-            echo "\">
-          ";
             // line 53
+            echo "          ";
             if ($this->getAttribute($context["button"], "url", array())) {
                 // line 54
                 echo "              <a href=\"";
-                echo (((is_string($__internal_3973e990bb31fe29d2856ce865eda55da572ee42ea99e242673929db6d8384be = $this->getAttribute($context["button"], "url", array())) && is_string($__internal_5655cbd02951d7cd5fcfc3c5840ecb6ca5eafa4d49b5543e20e3cacb7e980ef7 = "http") && ('' === $__internal_5655cbd02951d7cd5fcfc3c5840ecb6ca5eafa4d49b5543e20e3cacb7e980ef7 || 0 === strpos($__internal_3973e990bb31fe29d2856ce865eda55da572ee42ea99e242673929db6d8384be, $__internal_5655cbd02951d7cd5fcfc3c5840ecb6ca5eafa4d49b5543e20e3cacb7e980ef7)))) ? ($this->getAttribute($context["button"], "url", array())) : ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc($this->getAttribute($context["button"], "url", array()))));
+                echo (((is_string($__internal_4b44e9453958450f895788a042c4af477ea06f3519d0a6be03a9468c3d1e0ed8 = $this->getAttribute($context["button"], "url", array())) && is_string($__internal_4d6d1b5b65df2cb2381bb16a08236918f7ef3fa664a4ae84e2dafc651ccf1e71 = "http") && ('' === $__internal_4d6d1b5b65df2cb2381bb16a08236918f7ef3fa664a4ae84e2dafc651ccf1e71 || 0 === strpos($__internal_4b44e9453958450f895788a042c4af477ea06f3519d0a6be03a9468c3d1e0ed8, $__internal_4d6d1b5b65df2cb2381bb16a08236918f7ef3fa664a4ae84e2dafc651ccf1e71)))) ? ($this->getAttribute($context["button"], "url", array())) : ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc($this->getAttribute($context["button"], "url", array()))));
                 echo "\">
           ";
             }
@@ -255,8 +255,12 @@ class __TwigTemplate_1b9a597fd9d85b981882f56446d475559a7a89adb0462fb8c97e20eb90c
           ";
             }
             // line 69
-            echo "      </div>
-  ";
+            echo "      ";
+            if ($this->getAttribute($context["button"], "outerclasses", array(), "any", true, true)) {
+                echo "</div>";
+            }
+            // line 70
+            echo "  ";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
             $context['loop']['first'] = false;
@@ -346,7 +350,7 @@ class __TwigTemplate_1b9a597fd9d85b981882f56446d475559a7a89adb0462fb8c97e20eb90c
 
     public function getDebugInfo()
     {
-        return array (  333 => 73,  330 => 72,  323 => 59,  320 => 58,  315 => 48,  312 => 47,  307 => 45,  302 => 33,  298 => 30,  291 => 29,  288 => 28,  281 => 76,  278 => 75,  276 => 72,  273 => 71,  258 => 69,  254 => 67,  252 => 66,  247 => 64,  241 => 62,  236 => 61,  233 => 58,  227 => 57,  224 => 56,  218 => 54,  216 => 53,  208 => 52,  191 => 51,  188 => 50,  186 => 47,  183 => 46,  181 => 45,  178 => 44,  176 => 43,  173 => 42,  159 => 41,  151 => 40,  148 => 39,  145 => 38,  142 => 37,  139 => 36,  122 => 35,  119 => 34,  117 => 33,  113 => 31,  110 => 28,  104 => 27,  98 => 26,  94 => 25,  90 => 24,  87 => 23,  83 => 21,  81 => 20,  78 => 19,  76 => 18,  73 => 17,  66 => 15,  63 => 14,  60 => 13,  56 => 12,  53 => 11,  51 => 10,  49 => 9,  47 => 8,  38 => 5,  30 => 3,  27 => 2,  25 => 1,);
+        return array (  337 => 73,  334 => 72,  327 => 59,  324 => 58,  319 => 48,  316 => 47,  311 => 45,  306 => 33,  302 => 30,  295 => 29,  292 => 28,  285 => 76,  282 => 75,  280 => 72,  277 => 71,  263 => 70,  258 => 69,  254 => 67,  252 => 66,  247 => 64,  241 => 62,  236 => 61,  233 => 58,  227 => 57,  224 => 56,  218 => 54,  215 => 53,  208 => 52,  191 => 51,  188 => 50,  186 => 47,  183 => 46,  181 => 45,  178 => 44,  176 => 43,  173 => 42,  159 => 41,  151 => 40,  148 => 39,  145 => 38,  142 => 37,  139 => 36,  122 => 35,  119 => 34,  117 => 33,  113 => 31,  110 => 28,  104 => 27,  98 => 26,  94 => 25,  90 => 24,  87 => 23,  83 => 21,  81 => 20,  78 => 19,  76 => 18,  73 => 17,  66 => 15,  63 => 14,  60 => 13,  56 => 12,  53 => 11,  51 => 10,  49 => 9,  47 => 8,  38 => 5,  30 => 3,  27 => 2,  25 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -410,7 +414,7 @@ class __TwigTemplate_1b9a597fd9d85b981882f56446d475559a7a89adb0462fb8c97e20eb90c
   {% endblock %}
 
   {% for button in form.buttons %}
-      <div class=\"{% if button.outerclasses is defined %} {{ button.outerclasses }}{% endif %}\">
+      {% if button.outerclasses is defined %}<div class=\"{{ button.outerclasses }}\">{% endif %}
           {% if button.url %}
               <a href=\"{{ button.url starts with 'http' ? button.url : url(button.url) }}\">
           {% endif %}
@@ -427,7 +431,7 @@ class __TwigTemplate_1b9a597fd9d85b981882f56446d475559a7a89adb0462fb8c97e20eb90c
           {% if button.url %}
               </a>
           {% endif %}
-      </div>
+      {% if button.outerclasses is defined %}</div>{% endif %}
   {% endfor %}
 
   {% block inner_markup_buttons_end %}

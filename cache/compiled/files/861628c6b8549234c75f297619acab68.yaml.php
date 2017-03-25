@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/Thimy/Documents/iris/grav-skeleton-blog-site/user/plugins/sitemap/blueprints.yaml',
-    'modified' => 1489413660,
+    'modified' => 1490392681,
     'data' => [
         'name' => 'Sitemap',
-        'version' => '1.7.0',
+        'version' => '1.8.0',
         'description' => 'Provide automatically generated **XML sitemaps** with this very useful, but simple to configure, Grav plugin.',
         'icon' => 'map-marker',
         'author' => [

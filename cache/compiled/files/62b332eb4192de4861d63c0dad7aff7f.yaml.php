@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/Thimy/Documents/iris/grav-skeleton-blog-site/user/plugins/form/blueprints.yaml',
-    'modified' => 1489850623,
+    'modified' => 1490392601,
     'data' => [
         'name' => 'Form',
-        'version' => '2.3.0',
+        'version' => '2.3.1',
         'description' => 'Enables the forms handling',
         'icon' => 'check-square',
         'author' => [

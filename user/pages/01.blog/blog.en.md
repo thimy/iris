@@ -19,4 +19,3 @@ pagination: true
 ---
 
 # Iris Estival-David
-## A tale of **awesomazing** adventures

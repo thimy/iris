@@ -1,13 +1,21 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1489851041,
-    'checksum' => '024ff6b9ecfd7dbf79e9ccb113e774a9',
+    'timestamp' => 1490457163,
+    'checksum' => 'd51aae79c108a320962ff93a7ddd7568',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1489850991
+            ],
+            'plugins/form' => [
+                'file' => 'user/config/plugins/form.yaml',
+                'modified' => 1490392653
+            ],
+            'plugins/random' => [
+                'file' => 'user/config/plugins/random.yaml',
+                'modified' => 1489857242
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -15,7 +23,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1489851041
+                'modified' => 1490457163
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -71,7 +79,7 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1489850623
+                'modified' => 1490392601
             ],
             'plugins/langswitcher' => [
                 'file' => 'user/plugins/langswitcher/langswitcher.yaml',
@@ -103,7 +111,7 @@ return [
             ],
             'plugins/sitemap' => [
                 'file' => 'user/plugins/sitemap/sitemap.yaml',
-                'modified' => 1489413660
+                'modified' => 1490392681
             ],
             'plugins/taxonomylist' => [
                 'file' => 'user/plugins/taxonomylist/taxonomylist.yaml',
@@ -296,7 +304,7 @@ return [
                 'built_in_css' => true
             ],
             'random' => [
-                'enabled' => true,
+                'enabled' => false,
                 'route' => '/random',
                 'redirect' => true,
                 'filters' => [
@@ -371,6 +379,8 @@ return [
             'sitemap' => [
                 'enabled' => true,
                 'route' => '/sitemap',
+                'changefreq' => 'daily',
+                'priority' => 1,
                 'ignores' => [
                     0 => '/blog/blog-post-to-ignore',
                     1 => '/ignore-this-route'
@@ -643,8 +653,8 @@ return [
             'title' => 'Iris Estival-David',
             'default_lang' => 'fr',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@test.com'
+                'name' => 'Iris Estival-David',
+                'email' => 'thimy.nya@gmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',

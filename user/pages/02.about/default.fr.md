@@ -1,5 +1,5 @@
 ---
-title: Biography
+title: Biographie
 ---
 
 Diplômée de l’École d’avocat du Barreau de Paris, Iris Estival-David est titulaire d’un Master en Droit des affaires et d’un Master en Droit européen, qu’elle a obtenus au cours de ses études de droit à l’Université de la Sorbonne.

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/Thimy/Documents/iris/grav-skeleton-blog-site/user/plugins/form/languages.yaml',
-    'modified' => 1489850623,
+    'modified' => 1490392601,
     'data' => [
         'en' => [
             'PLUGIN_FORM' => [

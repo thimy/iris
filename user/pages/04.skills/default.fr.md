@@ -1,5 +1,5 @@
 ---
-title: Specialties
+title: Spécialités
 ---
 
 Iris Estival-David est spécialisée :
