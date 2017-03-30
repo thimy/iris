@@ -1,3 +1,28 @@
+#header #logo h3 {
+  font-size: 1.5rem;
+}
+
+.blog-header h1 {
+  margin-bottom: 0;
+}
+
+.header__social-links {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.header__social-links a {
+  color: white;
+}
+
+.header__social-links a:hover {
+  color: #1BB3E9;
+}
+
+.header__social-links a:first-child {
+  margin-right: 10px;
+}
+
 h2 + h3 {
   margin: .85rem 0 1.7rem 0;
   font-size: 2.1rem;
