@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/Thimy/Documents/iris/grav-skeleton-blog-site/user/plugins/sitemap/blueprints/sitemap.yaml',
-    'modified' => 1489413660,
+    'modified' => 1490392681,
     'data' => [
         'form' => [
             'fields' => [

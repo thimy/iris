@@ -1,5 +1,26 @@
+h2 + h3 {
+  margin: .85rem 0 1.7rem 0;
+  font-size: 2.1rem;
+  line-height: initial;
+  text-align: initial;
+  font-family: inherit;
+  font-weight: 400;
+}
+
 .header-image #body .flush-top {
   background-position: top center;
   min-height: 750px;
   padding-top: 32rem;
+}
+
+blockquote p {
+  color: #1BB3E9;
+}
+
+p {
+  text-align: justify;
+}
+
+#footer .social-links a {
+  margin-right: 2rem;
 }

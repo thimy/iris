@@ -1,0 +1,7 @@
+enabled: false
+route: /sitemap
+changefreq: daily
+priority: 1
+ignores:
+  - /blog/blog-post-to-ignore
+  - /ignore-this-route

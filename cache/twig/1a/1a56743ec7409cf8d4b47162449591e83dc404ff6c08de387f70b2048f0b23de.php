@@ -65,13 +65,13 @@ class __TwigTemplate_7e844986ff6a4b741b642497472de7e2d78842cff7256c7ab0945460902
 ";
         }
         // line 20
-        echo "<div class=\"sidebar-content\">
+        echo "<!--div class=\"sidebar-content\">
 \t<h4>";
         // line 21
         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("SIDEBAR.SOME_TEXT_WIDGET.HEADLINE");
         echo "</h4>
 \t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-</div>
+</div-->
 ";
         // line 24
         if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "taxonomylist", array()), "enabled", array())) {
@@ -168,10 +168,10 @@ class __TwigTemplate_7e844986ff6a4b741b642497472de7e2d78842cff7256c7ab0945460902
 \t<a class=\"button\" href=\"{{ base_url }}/random\"><i class=\"fa fa-retweet\"></i> {{ 'SIDEBAR.RANDOM_ARTICLE.FEELING_LUCKY'|t }}</a>
 </div>
 {% endif %}
-<div class=\"sidebar-content\">
+<!--div class=\"sidebar-content\">
 \t<h4>{{ 'SIDEBAR.SOME_TEXT_WIDGET.HEADLINE'|t }}</h4>
 \t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-</div>
+</div-->
 {% if config.plugins.taxonomylist.enabled %}
 <div class=\"sidebar-content\">
     <h4>{{ 'SIDEBAR.POPULAR_TAGS.HEADLINE'|t }}</h4>
@@ -190,6 +190,7 @@ class __TwigTemplate_7e844986ff6a4b741b642497472de7e2d78842cff7256c7ab0945460902
     <a class=\"button\" href=\"{{ feed_url }}.atom\"><i class=\"fa fa-rss-square\"></i> Atom 1.0</a>
     <a class=\"button\" href=\"{{ feed_url }}.rss\"><i class=\"fa fa-rss-square\"></i> RSS</a>
 </div>
-{% endif %}", "partials/sidebar.html.twig", "/Users/Thimy/Documents/iris/grav-skeleton-blog-site/user/themes/antimatter/templates/partials/sidebar.html.twig");
+{% endif %}
+", "partials/sidebar.html.twig", "/Users/Thimy/Documents/iris/grav-skeleton-blog-site/user/themes/antimatter/templates/partials/sidebar.html.twig");
     }
 }

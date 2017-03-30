@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/Thimy/Documents/iris/grav-skeleton-blog-site/user/config/system.yaml',
-    'modified' => 1489851031,
+    'modified' => 1490866252,
     'data' => [
         'absolute_urls' => false,
         'param_sep' => ':',
@@ -12,8 +12,7 @@ return [
         'languages' => [
             'supported' => [
                 0 => 'fr',
-                1 => 'en',
-                2 => 'zh'
+                1 => 'en'
             ],
             'include_default_lang' => true,
             'translations' => true,

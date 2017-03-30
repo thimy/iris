@@ -1,13 +1,17 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1490457163,
-    'checksum' => 'd51aae79c108a320962ff93a7ddd7568',
+    'timestamp' => 1490866610,
+    'checksum' => 'a20fb5868e0fce89ac302ed82e041100',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1489850991
+            ],
+            'plugins/archives' => [
+                'file' => 'user/config/plugins/archives.yaml',
+                'modified' => 1490866594
             ],
             'plugins/form' => [
                 'file' => 'user/config/plugins/form.yaml',
@@ -17,13 +21,21 @@ return [
                 'file' => 'user/config/plugins/random.yaml',
                 'modified' => 1489857242
             ],
+            'plugins/sitemap' => [
+                'file' => 'user/config/plugins/sitemap.yaml',
+                'modified' => 1490866610
+            ],
+            'plugins/taxonomylist' => [
+                'file' => 'user/config/plugins/taxonomylist.yaml',
+                'modified' => 1490866545
+            ],
             'security' => [
                 'file' => 'user/config/security.yaml',
                 'modified' => 1489850990
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1490457163
+                'modified' => 1490865251
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -31,7 +43,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1489851031
+                'modified' => 1490866252
             ]
         ],
         'system/config' => [
@@ -377,7 +389,7 @@ return [
                 ]
             ],
             'sitemap' => [
-                'enabled' => true,
+                'enabled' => false,
                 'route' => '/sitemap',
                 'changefreq' => 'daily',
                 'priority' => 1,
@@ -387,7 +399,7 @@ return [
                 ]
             ],
             'taxonomylist' => [
-                'enabled' => true,
+                'enabled' => false,
                 'route' => '/blog'
             ]
         ],
@@ -662,7 +674,7 @@ return [
                 2 => 'month'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'Iris Estival-David, Site Officiel'
             ],
             'summary' => [
                 'enabled' => true,
@@ -716,8 +728,7 @@ return [
             'languages' => [
                 'supported' => [
                     0 => 'fr',
-                    1 => 'en',
-                    2 => 'zh'
+                    1 => 'en'
                 ],
                 'include_default_lang' => true,
                 'translations' => true,

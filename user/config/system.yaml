@@ -7,7 +7,6 @@ languages:
   supported:
     - fr
     - en
-    - zh
   include_default_lang: true
   translations: true
   translations_fallback: true

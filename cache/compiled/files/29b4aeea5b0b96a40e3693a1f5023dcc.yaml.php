@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/Thimy/Documents/iris/grav-skeleton-blog-site/user/config/site.yaml',
-    'modified' => 1489851041,
+    'modified' => 1490865251,
     'data' => [
         'title' => 'Iris Estival-David',
         'default_lang' => 'fr',
         'author' => [
-            'name' => 'Joe Bloggs',
-            'email' => 'joe@test.com'
+            'name' => 'Iris Estival-David',
+            'email' => 'thimy.nya@gmail.com'
         ],
         'taxonomies' => [
             0 => 'category',
@@ -16,7 +16,7 @@ return [
             2 => 'month'
         ],
         'metadata' => [
-            'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+            'description' => 'Iris Estival-David, Site Officiel'
         ],
         'summary' => [
             'enabled' => true,
