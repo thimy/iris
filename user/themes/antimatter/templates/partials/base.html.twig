@@ -75,6 +75,15 @@
               <a href="https://www.facebook.com/Irisdavid21"><i class="fa fa-facebook"></i> Facebook</a>
               <a href="https://www.linkedin.com/in/iris-estival-david-91767591/"><i class="fa fa-linkedin"></i> Linkedin</a>
             </p>
+            <p class="terms">
+              <a href="{{ '/' ~ grav.language.getLanguage ~ '/terms' }}">
+                {% if grav.language.getLanguage == 'en' %}
+                  Terms and conditions
+                {% elseif grav.language.getLanguage == 'fr' %}
+                  Condition générales
+                {% endif %}
+              </a>
+            </p>
         </footer>
         {% endblock %}
     </div>

@@ -1,5 +1,6 @@
 ---
 title: 'Conditions générales'
+visible: false
 ---
 
 ## CONDITIONS GÉNÉRALES

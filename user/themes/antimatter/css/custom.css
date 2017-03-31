@@ -46,6 +46,14 @@ p {
   text-align: justify;
 }
 
+#footer .social-links {
+  float: left;
+}
+
 #footer .social-links a {
   margin-right: 2rem;
+}
+
+#footer .terms {
+  float: right;
 }
