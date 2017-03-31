@@ -6,7 +6,7 @@ title: Interventions
 
 Consciente des problématiques environnementales grandissantes, dans un monde en pleine mutation où le libre échange est une nécessité économique et sociale, Iris Estival-David soutient plusieurs actions gouvernementales, intergouvernementales et non-gouvernementales qui ont vocation à :
 
-* Protéger l’humain : Parce les droits politiques et fondamentaux ne sont pas acquis dans tous les pays, que des enfants et des adultes sont forcés au travail, au charity business et à la prostitution. Beaucoup d’individus n’ont pas de conditions de vie décentes, les entreprises et les jeunes s’expatrient en masse.
+* Protéger l’humain : Parce que les droits politiques et fondamentaux ne sont pas acquis dans tous les pays, que des enfants et des adultes sont forcés au travail, au charity business et à la prostitution. Beaucoup d’individus n’ont pas de conditions de vie décentes, les entreprises et les jeunes s’expatrient en masse.
 
 * Protéger les animaux : En quarante ans, plus de la moitié des espèces animales vertébrées ont disparu, leur habitat est menacé par la pollution et la déforestation, les espèces protégées sont victimes de braconnages et de trafics. Le tiers des espèces marines s’est éteint.
 
