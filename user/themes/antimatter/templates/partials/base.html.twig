@@ -4,7 +4,7 @@
 <head>
 {% block head %}
     <meta charset="utf-8" />
-    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+    <title>{{ site.title|e('html') }}</title>
     {% include 'partials/metadata.html.twig' %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
@@ -43,7 +43,7 @@
         {% block header %}
         <header id="header">
             <div id="logo">
-                <h3><a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a></h3>
+                <h3><a href="{{ base_url == '' ? '/' : base_url }}">Iris Estival-David</a></h3>
             </div>
             <div id="navbar">
                 {% block header_extra %}{% endblock %}
@@ -81,6 +81,8 @@
                   Terms and conditions
                 {% elseif grav.language.getLanguage == 'fr' %}
                   Condition générales
+                {% elseif grav.language.getLanguage == 'zh' %}
+                  一般条款
                 {% endif %}
               </a>
             </p>

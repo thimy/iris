@@ -1,6 +1,7 @@
 ---
 title: Accueil
 body_classes: 'header-image fullwidth'
+visible: false
 content:
     items: '@self.children'
     limit: 5
